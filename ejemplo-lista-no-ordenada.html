@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de etiqueta UL</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      margin: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+
+    li {
+      margin: 20px;
+      padding: 10px 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      display: inline-block;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    li:hover {
+      transform: translateY(-3px);
+    }
+
+    section {
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    article {
+      margin-bottom: 20px;
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    article h3 {
+      margin: 0 0 10px;
+      color: #333;
+    }
+
+    article p {
+      color: #666;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Menú</h1>
+
+  <ul>
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#noticias">Noticias</a></li>
+    <li><a href="#articulos">Artículos</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+
+  <section id="inicio">
+    <h2>¡Bienvenido a nuestra página de inicio!</h2>
+    <p>Descubre más sobre nuestra misión y valores.</p>
+  </section>
+
+  <section id="noticias">
+    <h2>Últimas Noticias</h2>
+    <article>
+      <h3>Gran Evento de Lanzamiento</h3>
+      <p>Reportaje sobre nuestro emocionante evento de lanzamiento.</p>
+    </article>
+    <article>
+      <h3>Nuevo Proyecto Revelado</h3>
+      <p>Detalles sobre el emocionante proyecto en el que estamos trabajando.</p>
+    </article>
+  </section>
+
+  <section id="articulos">
+    <h2>Artículos Destacados</h2>
+    <article>
+      <h3>Cómo Mejorar tus Habilidades en HTML</h3>
+      <p>Consejos y trucos para convertirte en un experto en HTML.</p>
+    </article>
+    <article>
+      <h3>Guía Completa de CSS Flexbox</h3>
+      <p>Aprende a diseñar diseños flexibles utilizando CSS Flexbox.</p>
+    </article>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¡Estamos aquí para ayudarte! Contáctanos mediante el formulario a continuación.</p>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="correo">Correo Electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      <button type="submit">Enviar Mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Derechos reservados &copy; 2023 | Página creada por Michael Curvelo</p>
+  </footer>
+
+</body>
+</html>
